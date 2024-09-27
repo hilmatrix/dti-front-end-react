@@ -1,0 +1,14 @@
+.contact-info {
+    margin-left: 40px;
+}
+
+.contact-info-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-info nav ul li {
+    margin-bottom: 10px;
+
+    list-style: none;
+}

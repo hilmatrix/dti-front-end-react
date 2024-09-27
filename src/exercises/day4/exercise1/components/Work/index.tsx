@@ -9,7 +9,7 @@ interface Props {
 
 const Index: FC<Props> = ({siteName, description}) => {
     return (
-        <div className="work">
+        <div id="work" className="work">
             <div className="work-left">
                 <div className="work-up">
                  {siteName}

@@ -3,7 +3,7 @@ import "./style.css";
 
 const Index: FC = () => {
     return (
-        <div className="about">
+        <div id="about" className="about">
             <div className="about-left">
                 About
             </div>
