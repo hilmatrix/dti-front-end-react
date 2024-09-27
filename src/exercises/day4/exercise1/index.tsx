@@ -1,8 +1,8 @@
 import React from 'react';
 import About from './components/About/index';
+import Footer from './components/Footer/index';
 import Header from './components/Header/index';
 import Hero from './components/Hero/index';
-import Portfolio from './components/Portfolio/index';
 import RecentWork from './components/RecentWork/index';
 import Testimonials from './components/Testimonials/index';
 import WorkStrip from './components/WorkStrip/index';
@@ -38,7 +38,7 @@ const Index: React.FC = () => {
       <WorkStrip images={arrayOfImages1}/>
       <WorkStrip images={arrayOfImages2}/>
       <Testimonials/>
-      <Portfolio/>
+      <Footer/>
     </>
   );
 }
