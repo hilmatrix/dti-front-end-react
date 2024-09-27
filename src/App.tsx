@@ -1,6 +1,6 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import Day4Exercise1 from "./exercises/day4/Exercise1";
+import Day4Exercise1 from "./exercises/day4/exercise1/index";
 import Day4Exercise2 from "./exercises/day4/Exercise2";
 
 const App: React.FC = () => {
