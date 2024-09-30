@@ -28,19 +28,19 @@ const Index: FC = () => {
                     
                     <nav className="right-menu-nav">
                         <ul>
-                            <li>Home</li>
-                            <li>About</li>
-                            <li>Work</li>
-                            <li>Contact</li>
+                            <li><a href="#hero">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#work">Work</a></li>
+                            <li><a href="/day4exercise1/contact">Contact</a></li>
                         </ul>
                     </nav>
                     <div className="right-menu-social">
                         <nav>
                             <ul>
-                                <li>LinkedIn</li>
-                                <li>Twitter</li>
-                                <li>Instagram</li>
-                                <li>Contact</li>
+                            <li><a href="https://www.linkedin.com/in/hilmatrix/">LinkedIn</a></li>
+                            <li><a href="https://www.twitter.com">Twitter</a></li>
+                            <li><a href="https://www.instagram.com/hilmatrix">Instagram</a></li>
+                            <li><a href="/day4exercise1/contact">Contact</a></li>
                             </ul>
                         </nav>
                     </div>
