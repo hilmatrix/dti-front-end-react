@@ -22,7 +22,28 @@ const Index: FC = () => {
                     </div>
                 </div>
                 <div className={isWide ? 'right-menu-container open' : 'right-menu-container'}>
-                    <button onClick={toggleWidth}> X</button>
+                    <div className="right-menu-close">
+                        <button  onClick={toggleWidth}> X</button>
+                    </div>
+                    
+                    <nav className="right-menu-nav">
+                        <ul>
+                            <li>Home</li>
+                            <li>About</li>
+                            <li>Work</li>
+                            <li>Contact</li>
+                        </ul>
+                    </nav>
+                    <div className="right-menu-social">
+                        <nav>
+                            <ul>
+                                <li>LinkedIn</li>
+                                <li>Twitter</li>
+                                <li>Instagram</li>
+                                <li>Contact</li>
+                            </ul>
+                        </nav>
+                    </div>
                 </div>
             </div>
         </div>
