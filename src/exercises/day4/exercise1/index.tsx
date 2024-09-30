@@ -5,6 +5,7 @@ import Footer from './components/Footer/index';
 import Header from './components/Header/index';
 import Hero from './components/Hero/index';
 import RecentWork from './components/RecentWork/index';
+import RightMenu from './components/RightMenu/index';
 import Testimonials from './components/Testimonials/index';
 import WorkStrip from './components/WorkStrip/index';
 
@@ -32,6 +33,7 @@ const Index: React.FC = () => {
 
   return (
     <>
+      <RightMenu/>
       <Header/>
       <Hero/>
       <About/>
