@@ -24,3 +24,8 @@
 .work .work-down {
     flex-basis: 50%;
 }
+
+.work-right img {
+    transition: 0.3s ease; 
+}
+

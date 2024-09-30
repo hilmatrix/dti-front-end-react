@@ -1,4 +1,5 @@
-import { FC } from "react";
+import { FC, useState } from "react";
+import LinkHover from "../../assets/link-hover.png";
 import Link from "../../assets/link.png";
 import "./style.css";
 
@@ -8,6 +9,8 @@ interface Props {
 }
 
 const Index: FC<Props> = ({siteName, description}) => {
+    const [isHovered, setIsHovered] = useState<boolean>(false);
+
     return (
         <div id="work" className="work">
             <div className="work-left">
@@ -18,8 +21,8 @@ const Index: FC<Props> = ({siteName, description}) => {
                  {description}
                  </div>
             </div>
-            <div className="work-right">
-                <img src={Link}></img>
+            <div className="work-right" >
+                <img src={isHovered ? LinkHover : Link} alt="Hoverable" onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}></img>
             </div>
         </div>
     );
