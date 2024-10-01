@@ -52,11 +52,11 @@
 
 .right-hand-text  {
     position: absolute;
-    width: 80px;
+    width: 160px;
     padding: 10px;
     top: 20px;
-    right: -200px;
-    font-size: xx-large;
+    right: -280px;
+    font-size: larger;
     color: white;
 }
 
@@ -156,4 +156,13 @@
 
 .right-menu-social a:hover {
     font-weight: bold;
+}
+
+.right-menu-burger {
+    position: absolute;
+    z-index: 5;
+    bottom : 60px;
+    right : 20px;
+
+    pointer-events: auto;
 }
