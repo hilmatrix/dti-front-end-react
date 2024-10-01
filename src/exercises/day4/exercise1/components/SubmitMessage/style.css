@@ -31,3 +31,16 @@
 }
 
 
+.submit-message .textarea {
+    height: 100px;
+    width: 80%;
+
+    border-top-color: #00000000;
+    border-left-color: #00000000;
+    border-right-color: #00000000;
+    border-bottom-color: grey;
+    background-color: #00000000;
+    font-size: larger;
+
+    margin-bottom: 20px;
+}

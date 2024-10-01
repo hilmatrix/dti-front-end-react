@@ -6,13 +6,13 @@ const Index: React.FC = () => {
     <div className='submit-message'>
         <h1>Let's build something cool together</h1>
         <label>Name</label>
-        <input type='text'></input>
+        <input type='text' placeholder='Hilman Mauludin'></input>
         <label>Email</label>
-        <input type='text'></input>
+        <input type='text' placeholder='hilmaul@gmail.com'></input>
         <label>Subject</label>
-        <input type='text'></input>
+        <input type='text' placeholder='For web design work Enquire'></input>
         <label>Message</label>
-        <input type='text'></input>
+        <textarea className="textarea" placeholder='Type your message'></textarea>
         <button>Submit</button>
     </div>
   );

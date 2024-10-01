@@ -9,16 +9,17 @@ const Index: React.FC = () => {
             <img src={HeroCircle}></img>
         </div>
         <div className='contact-info-details'>
-            <span>Contact Details</span>
+            <span className='title'>Contact Details</span>
             <span>ayush.barnwal@brightscout.com</span>
             <span>+91 8651447521</span>
         </div>
         <div className='contact-info-social'>
+            <span className='title'>Social</span>
             <nav>
                 <ul>
-                    <li>LinkedIn</li>
-                    <li>Instagram</li>
-                    <li>Twitter</li>
+                    <li><a href="https://www.linkedin.com/in/hilmatrix/">LinkedIn</a></li>
+                    <li><a href="https://www.twitter.com">Twitter</a></li>
+                    <li><a href="https://www.instagram.com/hilmatrix">Instagram</a></li>
                     <li>Webflow</li>
                     <li>Figma</li>
                 </ul>
