@@ -1,6 +1,7 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Day4Exercise1 from "./exercises/day4/exercise1/index";
+import Day4Exercise2 from "./exercises/day4/exercise1/route/Contact/index";
 
 const App: React.FC = () => {
   return (
@@ -20,6 +21,7 @@ const App: React.FC = () => {
       
       <Routes>
         <Route path="/day4exercise1" element={<Day4Exercise1 />} />>
+        <Route path="/day4exercise1/contact" element={<Day4Exercise2 />} />
       </Routes>
     </div>
   );
