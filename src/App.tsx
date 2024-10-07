@@ -5,25 +5,12 @@ import Day4Exercise2 from "./exercises/day4/exercise1/route/Contact/index";
 
 const App: React.FC = () => {
   return (
-    <div>
-      {location.pathname === '/' && (
-        <div>
-        <h1>Hilmatrix All React Projects</h1>
-        <nav>
-          <ul>
-            <li>
-            <a href="/day4exercise1">Day 4 Exercise</a>
-            </li>
-          </ul>
-        </nav>
-        </div>
-       )}
-      
+    <>
       <Routes>
-        <Route path="/day4exercise1" element={<Day4Exercise1 />} />
-        <Route path="/day4exercise1/contact" element={<Day4Exercise2 />} />
+        <Route path="/" element={<Day4Exercise1 />} />
+        <Route path="/contact" element={<Day4Exercise2 />} />
       </Routes>
-    </div>
+    </>
   );
 }
 

@@ -33,7 +33,7 @@ const Index: FC = () => {
                             <li><a href="#hero">Home</a></li>
                             <li><a href="#about">About</a></li>
                             <li><a href="#work">Work</a></li>
-                            <li><a href="/day4exercise1/contact">Contact</a></li>
+                            <li><a href="/contact">Contact</a></li>
                         </ul>
                     </nav>
                     <div className="right-menu-social">
@@ -42,7 +42,7 @@ const Index: FC = () => {
                                 <li><a href="https://www.linkedin.com/in/hilmatrix/">LinkedIn</a></li>
                                 <li><a href="https://www.twitter.com">Twitter</a></li>
                                 <li><a href="https://www.instagram.com/hilmatrix">Instagram</a></li>
-                                <li><a href="/day4exercise1/contact">Contact</a></li>
+                                <li><a href="/contact">Contact</a></li>
                             </ul>
                         </nav>
                     </div>

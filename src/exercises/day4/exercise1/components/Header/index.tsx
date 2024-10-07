@@ -9,9 +9,9 @@ const Index: FC = () => {
             </div>
             <nav>
                 <ul>
-                    <li><a href="/day4exercise1/#about">About</a></li>
-                    <li><a href="/day4exercise1/#work">Work</a></li>
-                    <li><a href="/day4exercise1/contact">Contact</a></li>
+                    <li><a href="/#about">About</a></li>
+                    <li><a href="/#work">Work</a></li>
+                    <li><a href="/contact">Contact</a></li>
                 </ul>
             </nav>
         </header>
